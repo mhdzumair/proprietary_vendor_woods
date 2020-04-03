@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
 		vendor/motorola/woods/proprietary/bin/fingerprintd:system/bin/fingerprintd \
 		vendor/motorola/woods/proprietary/etc/permissions/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
 		vendor/motorola/woods/proprietary/etc/permissions/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
+		vendor/motorola/woods/proprietary/framework/org.apache.http.legacy.jar:system/framework/org.apache.http.legacy.jar \
 		vendor/motorola/woods/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
 		vendor/motorola/woods/proprietary/lib/libfs_mgr.so:system/lib/libfs_mgr.so \
 		vendor/motorola/woods/proprietary/lib/libimsg_log.so:system/lib/libimsg_log.so \

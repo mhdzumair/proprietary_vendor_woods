@@ -1,0 +1,15 @@
+service thermal_manager /vendor/bin/thermal_manager
+    class main
+    user system
+    group system
+    oneshot
+    
+service thermal /vendor/bin/thermal
+    class main
+    user system
+    group system
+
+service thermald /vendor/bin/thermald
+    class main
+    user system
+    group system

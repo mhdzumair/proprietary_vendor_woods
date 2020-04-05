@@ -1,0 +1,5 @@
+service terservice /vendor/bin/terservice
+    class core
+    user radio
+    group radio cache inet misc
+    oneshot

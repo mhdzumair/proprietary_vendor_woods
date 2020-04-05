@@ -1,0 +1,5 @@
+service akmd09911 /vendor/bin/akmd09911
+    disabled
+    user system
+    group system
+    class main

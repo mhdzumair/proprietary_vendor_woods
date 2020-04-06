@@ -1,0 +1,344 @@
+tddM
+/system/bin/linker
+Android
+__libc_init
+LIBC
+libc.so
+dladdr
+libdl.so
+__cxa_atexit
+__register_atfork
+__gnu_Unwind_Find_exidx
+LIBC_N
+RIL_onRequestAck
+__aeabi_memcpy
+RIL_onRequestComplete
+RIL_onUnsolicitedResponse
+RIL_queryMyChannelId
+RIL_queryMyProxyIdByThread
+RIL_register
+RIL_register_socket
+RIL_requestProxyTimedCallback
+RIL_requestTimedCallback
+RIL_setRilSocketName
+RIL_startEventLoop
+__aeabi_memclr8
+__android_log_buf_print
+__errno
+__read_chk
+__snprintf_chk
+__stack_chk_fail
+__stack_chk_guard
+__strlcat_chk
+__strlen_chk
+__umask_chk
+__write_chk
+atoi
+capset
+close
+dlerror
+dlopen
+dlsym
+exit
+fprintf
+fstat
+open
+prctl
+property_get
+rild
+setresuid
+sleep
+socket_local_client
+stderr
+strcmp
+strerror
+strncmp
+strpbrk
+strstr
+strtok
+RIL_MDStateChange
+getpid
+property_set
+signal
+abort
+__bss_start
+_end
+_edata
+liblog.so
+libcutils.so
+librilmtk.so
+libc++.so
+libm.so
+r5(}
+JxD!FzD
+I FyD
+KzD{D
+KzD{D
+!"F{D
+!"F{D
+'|DO
+\!F(F
+(FyD
+(FyD
+$xD9FzD
+l4zD{D
+4zD{D
+ F)F@
+ F)FBFO
+ zDSF
+IzD{DyD
+KzD{D
+I(FyD
+I(FyD
+J}DxDzD)F
+I(FyD
+M~D}DF
+KxD}DF
+{D*F
+xD1`9F
+!{D*F
+!*F{D
+!zD{D
+!:F3F
+!zD{D
+!zD{D
+yD F
+pOM !OH
+"}D #xD
+>I>H?JyD?KxDzD{D
+:HxD
+&AI>J
+D>KyDzD
+XJXKzD
+SJSKzD
+!zD{D
+IxDyD
+IxDyD
+!zD{D
+!zD{D
+\!xD
+hF\!
+JxDzD
+H!FxD
+J!FxDzD
+H!FxD
+yD	h	h
+#H\!xD
+ HxD
+!zD{D
+"\#yD
+ F\!
+H!FxD
+" Fw
+ FBF
+E[--
+ " F
+yD	h	h
+(F1F
+(F"F
+q(F"F
+JxDzD
+2h F)F
+JxDzD
+)F@h
+ @F"F
+yD	h	h
+JxDzD
+yD	h	h
+`)F0F
+iF0F
+0F9F
+"i(FO
+(FIF
+d*F	
+ e8F
+JxDzD
+ a(F
+(F!F
+JxDzD
+aFrF
+IyD	h	h
+	h	h
+IyD	h	h
+	h	h
+HzDxD
+0h)F
+ h)F2F
+%Bk F
+G(Fp
+FBi0F
+0h)F
+FBi8F
+8h1F*FCF
+hJj!F
+KxDyD{D
+qDPp
+KxDyD{D
+"p(O
+KxDyD{D
+qEPO
+qEPO
+qEPO
+KxDyD{D
+!Bk F
+FyD	h	h
+0F)F
+yD	h	h
+jF F)F
+IxDyD
+#rFcF
+bh^h
+(F)FP
++N~D
+)N~D
+KxDyD{D
+KxDyD{D
+xDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG}HxDpG{HxDpGxHxDpGvHxDpGsHxDpGqHxDpGnHxDpGlHxDpGiHxDpGgHxDpGdHxDpGbHxDpG_HxDpG]HxDpGZHxDpGXHxDpGUHxDpGSHxDpGPHxDpGMHxDpGJHxDpGHHxDpGEHxDpGCHxDpG@HxDpG>HxDpG;HxDpG9HxDpG6HxDpG4HxDpG1HxDpG/HxDpG,HxDpG*HxDpG'HxDpG%HxDpG"HxDpG HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG
+HxDpG	HxDpG
+HxDpG
+HxDpG
+HxDpG
+RILD
+setresuid failed: %s
+capset failed: %s
+ro.debuggable
+**RIL Daemon Started**
+**RILd param count=%d**
+RILD started
+Max Number of rild's supported is: %d
+rild.libpath
+mtk-ril.so
+/proc/cmdline
+could not open /proc/cmdline:%s
+fstat error: %s
+Size of /proc/cmdline exceeds buffer
+could not read /proc/cmdline:%s
+android.qemud=
+qemud:gsm
+qemud
+%s/%s
+/dev/socket
+could not connect to %s socket: %s
+could not connect to %s socket (giving up): %s
+android.ril=
+/dev/%s
+overriding with %s %s
+Open ril lib path: %s
+dlopen failed: %s
+RIL_Init
+RIL_Init not defined or exported in %s
+RIL_SAP_Init
+RIL_SAP_Init not defined or exported in %s: %s
+RIL_SAP_Init defined as null in %s. SAP Not usable
+rild.libargs
+-d /dev/ttyC0
+RIL_Init argc = %d clientId = %s
+RIL_Init rilInit completed
+RIL_Init RIL_register completed
+RIL_register_socket started
+RIL_register_socket completed
+RIL_Init starting sleep loop
+Usage: %s -l <ril impl library> [-- <args for impl library>]
+pipe:%s
+/dev/qemu_pipe
+/dev/goldfish_pipe
+signal_no=%d
+SIGUSR1
+SIGUSR2
+SIGSEGV or SIGPIPE
+ril.mux.report.case
+ril.muxreport
+ril.emulation.userload
+ro.build.type
+user
+Setup SIGSEGV signal handling
+ril.pid.1
+void _Unwind_Resume(_Unwind_Exception *)
+external/libunwind_llvm/src/Unwind-EHABI.cpp
+_Unwind_Resume() can't return
+_Unwind_VRS_Result _Unwind_VRS_Set(_Unwind_Context *, _Unwind_VRS_RegClass, uint32_t, _Unwind_VRS_DataRepresentation, void *)
+unsupported register class
+_Unwind_VRS_Result _Unwind_VRS_Pop(_Unwind_Context *, _Unwind_VRS_RegClass, uint32_t, _Unwind_VRS_DataRepresentation)
+_Unwind_Reason_Code unwind_phase2(unw_context_t *, _Unwind_Exception *, bool)
+during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+libunwind: %s %s:%d - %s
+_Unwind_VRS_Result _Unwind_VRS_Get_Internal(_Unwind_Context *, _Unwind_VRS_RegClass, uint32_t, _Unwind_VRS_DataRepresentation, void *)
+external/libunwind_llvm/src/UnwindCursor.hpp
+uint32_t libunwind::Registers_arm::getRegister(int)
+external/libunwind_llvm/src/Registers.hpp
+unsupported arm register
+void libunwind::Registers_arm::setRegister(int, uint32_t)
+unw_fpreg_t libunwind::Registers_arm::getFloatRegister(int)
+Unknown ARM float register
+void libunwind::Registers_arm::setFloatRegister(int, unw_fpreg_t)
+bool libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm>::getInfoFromEHABISection(pint_t, const libunwind::UnwindInfoSections &) [A = libunwind::LocalAddressSpace, R = libunwind::Registers_arm]
+unknown personality routine
+index inlined table detected but pr function requires extra words
+unknown register
+GCC: (GNU) 4.9 20150123 (prerelease)
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+gold 1.11
+aeabi
+ARM v7
+.shstrtab
+.interp
+.note.android.ident
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.text
+.ARM.exidx
+.ARM.extab
+.rodata
+.preinit_array
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.comment
+.note.gnu.gold-version
+.ARM.attributes

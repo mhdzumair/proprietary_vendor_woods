@@ -6,5 +6,3 @@ service bootanim /system/bin/bootanimation
     oneshot
     writepid /dev/stune/top-app/tasks
 
-on property:service.bootanim.exit=0 && property:init.svc.bootanim=stopped
-    start bootanim

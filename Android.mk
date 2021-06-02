@@ -50,4 +50,28 @@ LOCAL_MULTILIB = 32
 LOCAL_SRC_FILES_32 = proprietary/vendor/lib/libgralloc_extra.so
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE = libnvram
+LOCAL_MODULE_CLASS = SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX = .so
+LOCAL_MULTILIB = 32
+LOCAL_SRC_FILES_32 = proprietary/vendor/lib/libnvram.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE = librilmtk
+LOCAL_MODULE_CLASS = SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX = .so
+LOCAL_MULTILIB = 32
+LOCAL_SRC_FILES_32 = proprietary/vendor/lib/librilmtk.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE = mtk-ril
+LOCAL_MODULE_CLASS = SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX = .so
+LOCAL_MULTILIB = 32
+LOCAL_SRC_FILES_32 = proprietary/vendor/lib/mtk-ril.so
+include $(BUILD_PREBUILT)
+
 endif
